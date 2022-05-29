@@ -3,11 +3,6 @@ Project for studing airflow
 
 # Initial setup
 
-Download the docker-compose.yaml file
-```
-curl -Lf0 'https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml'
-```
-
 Make expected directories and set an expected environment variable
 ```
 mkdir -p ./dags ./logs ./plugins
